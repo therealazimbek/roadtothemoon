@@ -1,0 +1,96 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, #28100c 0%, #1a1a1a 100%);
+}
+
+body {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    color: white;
+    z-index: 1;
+    flex: 1;
+}
+
+h1,
+.current-state {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Parisienne", cursive;
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex: 2;
+}
+
+video {
+    /* width: 100%; */
+    width: 100%;
+    max-width: 500px;
+    /* height: 50vh; */
+    object-fit: contain;
+}
+
+.whatsapp-link {
+    text-align: center;
+    /* margin-top: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.whatsapp-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #25d366;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.whatsapp-link a:hover {
+    text-decoration: underline;
+}
+
+.pilot-container {
+    font-family: "Parisienne", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* margin-top: 20px; */
+    flex: 1;
+}
+
+.heart-symbol {
+    font-size: 24px;
+    margin: 0;
+}
