@@ -60,16 +60,7 @@ video {
     object-fit: contain;
 }
 
-.whatsapp-link {
-    text-align: center;
-    /* margin-top: 25px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
-.whatsapp-link a {
+.pilot-container a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -78,22 +69,32 @@ video {
     border-radius: 5px;
 }
 
-.whatsapp-link a:hover {
+.pilot-container a:hover {
     text-decoration: underline;
 }
 
 .pilot-container {
-    font-family: "Parisienne", cursive;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     text-align: center;
     color: white;
     /* margin-top: 20px; */
     flex: 1;
 }
 
+.pilot-container p {
+    font-family: "Parisienne", cursive;
+}
+
 .heart-symbol {
     font-size: 24px;
     margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .pilot-container {
+        flex-direction: column;
+    }
 }
