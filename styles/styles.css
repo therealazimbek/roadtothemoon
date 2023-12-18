@@ -60,24 +60,10 @@ video {
     object-fit: contain;
 }
 
-.pilot-container a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    background-color: #25d366;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.pilot-container a:hover {
-    text-decoration: underline;
-}
-
 .pilot-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     text-align: center;
     color: white;
     /* margin-top: 20px; */
@@ -91,10 +77,4 @@ video {
 .heart-symbol {
     font-size: 24px;
     margin: 0;
-}
-
-@media screen and (max-width: 550px) {
-    .pilot-container {
-        flex-direction: column;
-    }
 }
