@@ -5,10 +5,11 @@ html {
     height: 100%;
     overflow: hidden;
     background: linear-gradient(180deg, #28100c 0%, #1a1a1a 100%);
+    text-align: center;
 }
 
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-height: 100vh;
 }
 
