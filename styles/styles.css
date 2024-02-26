@@ -54,7 +54,7 @@ h1 {
 
 video {
     /* width: 100%; */
-    width: 100%;
+    width: 60%;
     max-width: 500px;
     /* height: 50vh; */
     object-fit: contain;
